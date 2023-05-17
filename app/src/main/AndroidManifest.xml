@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_tumikia_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_tumikia_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TumikiaApp"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ViewUsers"
+            android:exported="false" />
+
+        <activity
+            android:name=".Karibu"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Join"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+
+
+        <activity
+            android:name=".HomelessOrganisations"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+
+
+
+
+
+
+
+        <activity
+            android:name=".Selah"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".About"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ContactUs"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".MainNav"
+            android:exported="false"
+            android:theme="@style/Theme.Home">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/RegisterTheme" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme" />
+
+    </application>
+</manifest>

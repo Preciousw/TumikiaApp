@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Home"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/whitesmoke"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/fragment_container">
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:id="@+id/toolbar"
+                    android:elevation="4dp"
+                    android:background="@color/colorPrimary"
+                    app:titleTextColor="@color/colorPrimary"
+
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:layout_marginStart="90dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Homeless Charities"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+
+                    android:layout_marginBottom="20dp"
+
+                    />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:rowCount="4"
+                    android:columnCount="2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:alignmentMode="alignMargins"
+                    android:layout_gravity="center_horizontal"
+                    android:columnOrderPreserved="false"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/selah"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/selah"
+
+                                android:layout_marginTop="12dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SELAH"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/nphy"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/nphy"
+                                android:layout_marginTop="1dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NAIROBI PARTNERSHIP FOR HOMELESS YOUTH"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/alliance"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/nationalalliance"
+                                android:layout_marginTop="1dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NATIONAL ALLIANCE TO END HOMELESSNESS"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/streetwise"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/streetwise"
+                                android:layout_marginTop="12dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="STREETWISE"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/win"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/win"
+                                android:layout_marginTop="12dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="WOMEN IN NEED"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/coalition"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/coalition"
+                                android:layout_marginTop="12dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="COALITION FOR THE HOMELESS"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/picture"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/pictureth"
+                                android:layout_marginTop="12dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PICTURE THE HOMELESS"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/nairobi"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="5dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        android:layout_margin="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/hon"
+                                android:layout_marginTop="12dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="HOMELESS OF NAIROBI"
+                                android:textAlignment="center"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:layout_marginTop="20dp"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimary"
+        android:background="@drawable/nav_base_bckg"/>
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+

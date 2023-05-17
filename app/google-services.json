@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989085654482",
+    "project_id": "tumikiaapp-b6e6c",
+    "storage_bucket": "tumikiaapp-b6e6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989085654482:android:7906963abd1fc8bafc3c0b",
+        "android_client_info": {
+          "package_name": "com.example.tumikiaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989085654482-husbk595sbr335171p52hc1oiu8oqgd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRGFaqRa9xWcykl-EQpvQVWKWHjg5DKo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989085654482-husbk595sbr335171p52hc1oiu8oqgd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

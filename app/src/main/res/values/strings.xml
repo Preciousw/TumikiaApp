@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TumikiaApp</string>
+    <string name="item_label">Select County</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="faketext1">Like all good business, charities need a strong administration and operations management team at its core. If operations is for you, you will need to be someone who is logical, process-driven and likes to be highly-organised. You do not need to begin your career in this sector, as many operations specialists might move across after a stint in the private sector.</string>
+    <string name="demo1">Management/ Administration / Operations</string>
+    <string name="demo2">Personnel and Human Resource      </string>
+    <string name="faketext2">People, employees and volunteers are crucial to the success of any given charity. In the Human Resource and Personnel department, you will be responsible for making sure the charity looks after its people and their well-being, along with training, development and contractual arrangements. If you love working with people, this is a good area for you. </string>
+    <string name="demo3">Marketing, Communications and Campaigning     </string>
+    <string name="faketext3">Raising awareness of the charity in the hope that more people donate to it is vital.  This can come in the form of publicity, marketing and communications, representing the organisation at events, organising large-scale fundraisers and awareness campaigns or liaising with benefactors who will be making substantial donations.To succeed in these fields, you will need superb communication skills, both oral and written and be able to influence others. You will need to be really passionate about your cause and excellent at demonstrating that through the work that you produce.</string>
+    <string name="demo4">Volunteer Management                    </string>
+    <string name="faketext4">Volunteer Managers tend to be responsible for recruiting, interviewing and managing a charity volunteer network. You will help devise and implement training programmes and deliver awareness initiatives to drive volunteer numbers upwards. You could find yourself working on a local, national or even global level and helping to drive a charity strategy.</string>
+    <string name="demo5">Policy Development and Research</string>
+    <string name="faketext5">You will be part of a team to help implement a charity strategy and be expected to build relationships and influencing stakeholders and organisations alike. You will have excellent communication and research skills, with a keen eye for detail and an ability to think quickly on your feet. For more insights into public affairs, read our snapshot guide just here. </string>
+    <string name="demo6">Fundraising                  </string>
+    <string name="faketext6">For Corporate Fundraising and Major Donor fundraising you will need to be comfortable dealing with a whole range of people, some very high profile. You will need to be comfortable chatting at a party with celebrities, or with the head of a large company. Project managing is also very important and you will have to juggle a million things at one time and keep track of anything that could go wrong.</string>
+    <string name="demo7">Grants Officers/Advisers                </string>
+    <string name="faketext7">As a Grant Officer and/or Adviser, you will tend to work with the fundraising departments to contribute towards the overall fundraising targets of a charity and to ensure the long term sustainability of the charity work. You will work to produce high-value successful applications to new and current UK and/or international trusts and statutory funders and, if required, produce documentation to help do this.
+
+You will need superb communication, strong leadership and organisational skills. You will be required to build relationships internally and externally. Sometimes you will be required to work to tough targets so you will be someone who thrives under pressure and working to tight deadlines.
+
+</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
